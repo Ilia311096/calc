@@ -1,0 +1,43 @@
+@media (max-width: 575px){
+    .container{
+        width: 95%;
+    }
+    .header{
+        flex-wrap: wrap;
+        &__logo{
+            width: 200px;
+        }
+        &__contact{
+        justify-content: flex-end;
+        }
+    }
+    .promo{
+        &__wrapper{
+            align-content:flex-end;
+            text-align: right;
+        }
+        &__icons{
+            justify-content: center;
+        }
+    }
+    .advantages{
+        &__wrapper{
+            flex-direction: column;
+            align-items:center;
+        }
+        &__item{
+            margin-bottom: 30px;
+        }
+        &__subtitle{
+            margin-top: 12px;
+        }
+        &__descr{
+            margin-top: 12px;
+        }
+    }
+}      
+    
+    
+    
+    
+    

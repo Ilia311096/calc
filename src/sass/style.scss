@@ -1,0 +1,31 @@
+@import 'base/animations.scss';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+}
+
+
+@import 'base/variables.scss';
+@import 'block/promo.scss';
+@import 'block/header.scss';
+@import 'block/button.scss';
+@import 'base/mixins.scss';
+@import 'block/titles.scss';
+@import 'block/advantages.scss';
+@import 'block/media.scss';
+@import 'block/consultation.scss';
+@import 'block/forms.scss';
+@import 'block/carousel.scss';
+@import 'block/catalog.scss';
+@import 'block/footer.scss';
+@import 'block/modal.scss';
+@import 'block/pageup.scss';
+
+
+
